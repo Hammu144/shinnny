@@ -1,8 +1,5 @@
-
 library(shiny)
 library(lab05)
-
-
 
 ui <- function(){
   shiny::fluidPage(
@@ -31,10 +28,8 @@ server <-  function(input, output) {
   
 }
 
-myap <- function(){
-  shiny::shinyApp(ui, server)
-  
-}
 
+shiny::shinyApp(ui, server)
+  
 
 
